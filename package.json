@@ -1,0 +1,26 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Premium personal portfolio website with Firebase backend",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server",
+    "serve": "http-server -p 8888",
+    "build": "echo 'Portfolio is ready for deployment'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "firebase",
+    "netlify",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Kwabena Akumi",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
